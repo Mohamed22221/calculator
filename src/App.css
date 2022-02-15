@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+
+body{
+    background-color: rgb(196, 196, 196);
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.App{
+margin:0 auto;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App main{
+    background-color: white;
+    
+    border-radius:3px ;
+    box-shadow: 0 8px 4px rgb(35, 79, 104) ;
+    padding: 20px 10px;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App .all-amount{
+    color: rgb(35, 79, 104) ;;
+   
+    margin: 10px;
+    
 }
-
-.App-link {
-  color: #61dafb;
+.btnn{
+    all: unset;
+    background-color: rgb(35, 79, 104) ;
+    padding: 4px 12px;
+    color: white;
+    text-transform: capitalize;
+    border-radius:3px ;
+    cursor: pointer;
+    margin-top: 6px;
+  
+   
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btnn i{
+   padding:0 6px;
+   
+}
+.App h1{
+color: white;
+font-style: italic;
+text-align: center;
+}
+.item-expense{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(243, 243, 243);
+    padding: 2px 8px;
+    margin: 10px 0;
+   border: 1px solid black;
+}
+.item-expense .name {
+    width: 11.4%;
+    font-weight: bold;
+    text-transform: capitalize;
+    
+}
+.form-group label{
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(122, 122, 122);
+    
+}
+.item-expense .amount{
+  
+    background-color:rgb(35, 79, 104) ;
+    padding: 2px 9px;
+    color: white;
+    
+  
+    
+}
+.item-expense .icon i{
+   color: rgb(35, 79, 104)  ;
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 4px;
+  
+    
+}
+.alert{
+    color: white;
+    background-color: brown;
+    text-align: center;
+    
 }
